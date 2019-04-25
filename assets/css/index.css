@@ -63,6 +63,7 @@ a.applink {
 
 #phone {
   color: #fffec7;
+  width: 100%;
   padding-top: 0;
   padding-bottom: 0;
   text-align: center;
@@ -93,6 +94,7 @@ a.applink {
 ul.love {
   border-top: none;
     width: 100%;
+    margin-left: 4rem;
 /*    margin-right:0;
     padding-right:0;*/
 /*  padding-top: 0.5rem;*/
@@ -106,7 +108,7 @@ ul.love {
   color: #ffd6ff;
   margin-left: 6rem;
   margin-right: 4rem;
-  margin-bottom: 0;
+  margin-bottom: .5rem;
   vertical-align: center;
   font-weight: 500;
 /*  padding-bottom: 0;
@@ -137,10 +139,15 @@ ul.love {
 /*  margin-bottom: 1rem;
   margin-left: 2rem;
   padding: 1rem 1rem;*/
-  margin-left: 4%;
+  margin-left: 4rem;
   font-size: 1.30rem;
 }
 
+.summary {
+  margin-top: 1rem;
+  margin-left: 6rem;
+  font-size: 1.30rem;
+}
 /*#titleTop img {
   width: 10%;
   vertical-align: bottom;
