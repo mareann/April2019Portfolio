@@ -76,26 +76,26 @@ a.applink {
 }
 
 .email:hover {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #phone:hover {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .love > li {
-      color: #ffd6ff; /* lightpurple */
-    width:100%;
+  color: #ffd6ff; /* lightpurple */
+  width:100%;
 /*    margin-right:0;
     padding-right:0;*/
 }
 
 ul.love {
   border-top: none;
-    width: 100%;
-    margin-left: 4rem;
+  width: 100%;
+  margin-left: 4rem;
 /*    margin-right:0;
     padding-right:0;*/
 /*  padding-top: 0.5rem;*/
@@ -147,12 +147,12 @@ ul.love {
 
 .summary {
   margin-top: 1rem;
-  margin-left: 6rem;
+  margin-left: 8rem;
   font-size: 1.30rem;
 }
 
 header {
-  height: 50px;
+  height: auto; /*50px;*/
 }
 
 div#latest 
@@ -163,10 +163,32 @@ div#latest
  /* padding-left: 35%;*/
 }
 
-.latestTech > ul {
-   text-align: center;
+.latestIcons {
+  margin: 1rem 0;
+  text-align: center;
 }
 
+.latestList {
+  float:left;
+  width: 15%;
+  margin-left:8%;
+  margin-bottom: 2rem;
+}
+
+.latestList > h2 {
+  justify-content: left;
+  width: 15%;
+}
+
+.latestList > ul {
+   /*text-align: center;*/
+   justify-content: left;
+   font-size: 1rem;
+}
+
+.latestRole {
+  margin-left:30%;
+}
 div#latest > img {
   margin: 1rem 0;
 }
@@ -229,4 +251,8 @@ div#titleTop {
   text-align: center;
     padding-top: 2rem;
 /*  border-top: 2rem solid #eba4e4;*/
+}
+
+.card-deck {
+  clear: both;
 }
