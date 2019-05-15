@@ -149,6 +149,7 @@ ul.love {
   margin-top: 1rem;
   margin-left: 8rem;
   font-size: 1.30rem;
+  padding-top: 4rem;
 }
 
 header {
@@ -171,7 +172,7 @@ div#latest
 .latestList {
   float:left;
   width: 18%;
-  margin-left:7%;
+  margin-left:6%;
   margin-bottom: 2rem;
 }
 
@@ -206,14 +207,16 @@ header {
     margin-bottom: 1em;
 }*/
 
-main {
+/*main {
   padding-top: 2em;
   width:100%;
-}
+}*/
 
 .introrow {
     background-color: #ffd6ff;
     margin-top: 2rem;
+    padding-top:2rem;
+    width:100%;
 }
 /*
 .introrow .row {
